@@ -1,0 +1,11 @@
+# behat.yml
+default:
+    context:
+        class: FeatureContext
+        parameters:
+            baseUrl: http://uksa-testing.co.uk/
+            dataPath: %behat.paths.base%/Lib/data/
+    paths:
+        features: features
+        bootstrap: %behat.paths.features%/bootstrap
+

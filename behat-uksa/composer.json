@@ -1,0 +1,17 @@
+{
+    "require": {
+        "behat/behat": "2.5.3",
+        "facebook/webdriver": "dev-master",
+        "phpunit/phpunit": "4.3.*",
+        "guzzle/guzzle": "3.9.2"
+    },
+    "minimum-stability": "dev",
+    "config": {
+        "bin-dir": "bin/"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dvsa\\Mot\\Behat\\": "Lib"
+        }
+    }
+}

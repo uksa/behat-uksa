@@ -1,0 +1,14 @@
+---
+users:
+  admin:
+    username: samtreweek@gmail.com
+    password: Password1
+  suspend:
+    username: uksa.testing+suspend@gmail.com
+    password: Password1
+  standard:
+    username: uksa.testing+standard@gmail.com
+    password: Password1
+  unknown:
+    username: XXX@XXX.com
+    password: YYYYYYZZZ1
